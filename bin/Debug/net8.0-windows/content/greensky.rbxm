@@ -1,0 +1,79 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Sky" referent="RBX0">
+		<Properties>
+			<bool name="CelestialBodiesShown">true</bool>
+			<string name="Name">Sky</string>
+			<Content name="SkyboxBk"><url>rbxasset://Sky_green\null_plainsky512_bk.jpg</url></Content>
+			<Content name="SkyboxDn"><url>rbxasset://Sky_green\null_plainsky512_dn.jpg</url></Content>
+			<Content name="SkyboxFt"><url>rbxasset://Sky_green\null_plainsky512_ft.jpg</url></Content>
+			<Content name="SkyboxLf"><url>rbxasset://Sky_green\null_plainsky512_lf.jpg</url></Content>
+			<Content name="SkyboxRt"><url>rbxasset://Sky_green\null_plainsky512_rt.jpg</url></Content>
+			<Content name="SkyboxUp"><url>rbxasset://Sky_green\null_plainsky512_up.jpg</url></Content>
+			<int name="StarCount">3000</int>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Workspace" referent="RBX1">
+		<Properties>
+			<token name="Controller">0</token>
+			<bool name="ControllerFlagShown">true</bool>
+			<Ref name="CurrentCamera">RBX2</Ref>
+			<double name="DistributedGameTime">0</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Camera" referent="RBX2">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>0</X>
+					<Y>5</Y>
+					<Z>5</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>-0</R02>
+					<R10>-0</R10>
+					<R11>0.89442718</R11>
+					<R12>0.44721359</R12>
+					<R20>0</R20>
+					<R21>-0.44721359</R21>
+					<R22>0.89442718</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>-5</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
